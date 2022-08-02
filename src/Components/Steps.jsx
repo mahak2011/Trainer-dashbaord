@@ -15,7 +15,7 @@ const Steps = e => {
   const [target, setTarget] = useState(4000);
   return (
     <Box>
-      <HStack ml="80px">
+      <HStack ml="95px">
         <CircularProgress
           max={target}
           value={e.stepsWalked}

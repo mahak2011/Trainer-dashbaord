@@ -1,11 +1,9 @@
 import DP1 from './Images/femaleDP.jpg';
 import DP2 from './Images/maleDP1.png';
 import DP3 from './Images/maleDP2.png';
-import date from 'date-and-time';
+import moment from 'moment';
 
-const now = new Date();
-date.format(now, 'DD MMM');
-console.log(now);
+const today = moment().format('DD MMM');
 
 const dummy = [
   {
@@ -16,7 +14,7 @@ const dummy = [
     stepsWalked: 3547,
     stepsTarget: 4000,
     performedDate: '29 Jul',
-    scheduledDate: '1 Aug',
+    scheduledDate: '01 Aug',
     calorieIntake: 2547,
     calorieTarget: 2500,
     proteinIntake: 45,
@@ -35,7 +33,7 @@ const dummy = [
     stepsWalked: 2547,
     stepsTarget: 4000,
     performedDate: '29 Jul',
-    scheduledDate: 'now',
+    scheduledDate: today,
     calorieIntake: 2547,
     calorieTarget: 2500,
     proteinIntake: 45,
@@ -54,13 +52,13 @@ const dummy = [
     stepsWalked: 2147,
     stepsTarget: 4000,
     performedDate: '29 Jul',
-    scheduledDate: '1 Aug',
+    scheduledDate: '31 Jul',
     calorieIntake: 2547,
     calorieTarget: 2500,
     proteinIntake: 45,
     proteinTarget: 70,
     carbConsumed: 50,
-    cardTarget: 70,
+    carbTarget: 70,
     fatConsumed: 30,
     fatTarget: 70,
     feedback: false,

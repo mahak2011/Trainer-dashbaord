@@ -6,7 +6,6 @@ import Nutrition from './Nutrition';
 import { Box, HStack, IconButton } from '@chakra-ui/react';
 import Dummy from '../data.js';
 import { AiOutlineBell } from 'react-icons/ai';
-// import date from 'date-and-time';
 
 const AllDetails = () => {
   return (
@@ -19,7 +18,7 @@ const AllDetails = () => {
               <Steps {...e} />
               <Workout {...e} />
               <Nutrition {...e} />
-              <Box pl="35px">
+              <Box w="100px">
                 <IconButton
                   bg="#36F5C7"
                   color="#000000"
